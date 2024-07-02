@@ -1,0 +1,11 @@
+vobject
+pandas
+numpy
+scikit-learn
+tqdm
+fuzzywuzzy
+phonenumbers
+PyYAML
+requests
+openai
+python-dotenv
