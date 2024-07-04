@@ -62,6 +62,10 @@ Removes email addresses ending with @facebook.com from VCard files. 🙅‍♂�
 
 Fixes VCard files exported from the Sunshine contacts app by removing obsolete items. ☀️
 
+### 📝 `vcf-note-remover.py`
+
+Removes the NOTE field from VCard files unless it contains specific keywords defined in a configuration file. 📋
+
 ## 📚 Documentation
 
 Each script includes a detailed docstring explaining its purpose, usage, and dependencies. For more information, refer to the individual script files. 📖

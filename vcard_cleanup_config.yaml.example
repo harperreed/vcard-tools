@@ -11,4 +11,4 @@ keywords:
 auto_delete: true
 
 # Directory to use as the base for the trash folders
-trash_directory: ./trash
+trash_directory: /Users/harper/.contacts/trash
