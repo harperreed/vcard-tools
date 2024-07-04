@@ -1,0 +1,9 @@
+# VCard Note Remover Configuration
+
+# List of keywords to check for in the NOTE field
+# Notes containing these keywords will be preserved
+keywords:
+  - important
+  - keep
+  - reminder
+  - todo
