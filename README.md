@@ -22,7 +22,7 @@ Here's an overview of the scripts included in this repository:
 
 This script splits multi-entry VCF files into single-entry VCard files. It can also filter entries based on a specified string. 🗂️
 
-### 🔍 `vcf-dupe-checker.py`
+### 🔍 `vcf-dupe-checker.py` 
 
 A simple duplicate checker that identifies potential duplicate VCards based on name and email. 👥
 
@@ -50,11 +50,23 @@ Adds a UUID (Universally Unique Identifier) to any VCard that doesn't already ha
 
 An interactive tool that searches for information about contacts and helps decide which ones to keep or move. 🔍
 
+### 🍰 `vcf-chunker.py`
+
+Splits large VCard files into smaller, more manageable chunks. 🔪
+
+### 🚫 `vcf-facebook-email-remover.py`
+
+Removes email addresses ending with @facebook.com from VCard files. 🙅‍♂️
+
+### 🌅 `vcf-fix-sunshine-obsolete.py`
+
+Fixes VCard files exported from the Sunshine contacts app by removing obsolete items. ☀️
+
 ## 📚 Documentation
 
 Each script includes a detailed docstring explaining its purpose, usage, and dependencies. For more information, refer to the individual script files. 📖
 
-## 🤝 Contributing
+## 🤝 Contributing 
 
 Contributions are welcome! If you have any ideas for improvements or new features, please open an issue or submit a pull request. 🙌
 
