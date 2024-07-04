@@ -1,0 +1,14 @@
+# vcard_cleanup_config.yaml
+
+# Keywords to check in vCards
+keywords:
+  - noreply
+  - no-reply
+  - unsubscribe
+  - domainnamesales.com
+
+# Set to true to automatically delete matching cards without prompting
+auto_delete: true
+
+# Directory to use as the base for the trash folders
+trash_directory: ./trash

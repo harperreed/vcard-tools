@@ -1,0 +1,23 @@
+# vcard_dupechecker_config.yaml
+
+# Similarity threshold for considering vCards as potential duplicates
+# Range: 0.0 to 1.0 (0.8 means 80% similarity)
+similarity_threshold: 0.8
+
+# Threshold for auto-merging without user confirmation
+# Range: 0.0 to 1.0 (0.95 means 95% similarity)
+auto_merge_threshold: 0.95
+
+# Whether to keep original files after merging
+# Set to true to keep originals, false to delete them
+keep_originals: false
+
+# Directory where merged vCards will be saved
+merged_dir: "merged_vcards"
+
+# Additional options (not used in the provided script, but could be useful):
+# Log file path
+log_file: "vcard_dupechecker.log"
+
+# Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+log_level: "INFO"
