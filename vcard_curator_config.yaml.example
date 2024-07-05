@@ -1,0 +1,19 @@
+# OpenAI Configuration
+openai_model: "gpt-3.5-turbo"
+
+# Prompts
+system_prompt: "You are a helpful assistant that summarizes information about people, including their email interaction history."
+user_prompt: "Please summarize the following information about a person in 2-3 sentences. Include insights from their email interaction data if available:"
+
+# File Paths
+state_file: "contact_sort_state.json"
+gmail_token_file: "token.pickle"
+gmail_credentials_file: "credentials.json"
+
+# Search Configuration
+serper_max_results: 6
+tavily_max_results: 6
+tavily_search_depth: "basic"
+
+# Email Configuration
+email_subject_count: 10
